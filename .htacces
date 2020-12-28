@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-d
+=======
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+>>>>>>> 3b353ca20093ab188c4f8c096b7f7a385d7c9014
 RewriteRule ^([^.]+)$ $1.php [NC,L]
